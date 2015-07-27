@@ -45,9 +45,9 @@ package UU
 			INIT_H = this.getRoot().getAdapter().rootHeight / 6.5;
 //			INIT_H = _scale9Btn_A.height;
 			
-			_startX = 20;
+			_startX = -5;
 			_startY = 300;
-			_endX = this.getRoot().getAdapter().rootWidth - 20;
+			_endX = this.getRoot().getAdapter().rootWidth + 5;
 			_endY = this.getRoot().getAdapter().rootHeight - 300;
 			
 			_scale9Btn_A.height = INIT_H;
