@@ -38,6 +38,7 @@ package UU
 			this.getFusion().addNode(_dragFusion);
 			
 			_scale9Btn_A = new Scale9ButtonUU(true, false);
+			_scale9Btn_A.alpha = 0.5;
 			_scale9Btn_A.skinId = "ui/btnScale9/B";
 //			_scale9Btn_A.width = INIT_W;
 			
@@ -45,9 +46,9 @@ package UU
 			INIT_H = this.getRoot().getAdapter().rootHeight / 6.5;
 //			INIT_H = _scale9Btn_A.height;
 			
-			_startX = -5;
+			_startX = -30;
 			_startY = 300;
-			_endX = this.getRoot().getAdapter().rootWidth + 5;
+			_endX = this.getRoot().getAdapter().rootWidth + 30;
 			_endY = this.getRoot().getAdapter().rootHeight - 300;
 			
 			_scale9Btn_A.height = INIT_H;
